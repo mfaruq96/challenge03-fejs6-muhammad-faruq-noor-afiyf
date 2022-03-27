@@ -4,8 +4,10 @@ import { Routes, Route } from "react-router-dom";
 // import { Routes, Route, Link } from "react-router-dom";
 
 
+import { Auth } from '../Pages/Auth/Auth';
+import { AuthError } from '../Pages/Auth/AuthError';
 import { Dashboard } from '../Pages/Dashboard/Dashboard';
-import { Login } from '../Pages/Login/Login';
+import { Cars } from '../Pages/Cars/Cars';
 // import { Product } from '../Pages/Product/Product';
 // import { Galery } from '../Pages/Galery/Galery';
 // import { ContactUs } from '../Pages/ContactUs/Contactus';
@@ -15,7 +17,10 @@ import { Login } from '../Pages/Login/Login';
 export const Routers = () => {
     return (
         <Routes>
-            <Route path="/" element={<Login />} />
+            <Route path="/" element={<Auth />} />
+            <Route path="/AuthError" element={<AuthError />} />
+            <Route path="/Dashboard" element={<Dashboard />} />
+            <Route path="/Cars" element={<Cars />} />
         </Routes>
     )
 };

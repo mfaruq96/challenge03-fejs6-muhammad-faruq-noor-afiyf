@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mf-dashboard-left{
+    width: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0D28A6;
+    height: 100%;
+    text-align: center;
+}
+
+.mf-dashboard-left-2 {
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    float: left;
+    margin-top: 70px;
+    height: 100%;
+    margin-left: 70px;
+}
+
+.mf-dashboard-box {
+    width: 34px;
+    height: 34px;
+}
+
+.mf-dashboard-rectangular {
+    width: 100px;
+    height: 34px;
+}
+
+.mf-dashboard-vektor {
+    width: 12px;
+    height: 6px;
+}
+
+.mf-dashboard-home {
+    width: 70px;
+    height: 64px;
+}
+
+.mf-dashboard-menu {
+    width: 24px;
+    height: 24px;
+    margin-left: 110px;
+}
+
+.mf-dashboard-navbar-right {
+    display: flex;
+    justify-items: end;
+}
+
+.mf-dashboard-search-input {
+    width: 174px;
+    height: 36px;
+}
+
+ul	{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0D28A6;
+}
+
+li a {
+    display: block;
+    color: white;
+    gap: 2px;
+    text-decoration: none;
+}
+
+li a:hover {
+   background-color: rgba(255, 255, 255, 0.3);
+   color: white;
+}
+
+.mf-dashboard-navbar {
+    margin-left: 70px;
+    height: 70px;
+    padding: 1em;
+    /* background-color:aqua;    */
+}
+
+.mf-dashboard-fr {
+    float: right;
+}
+
+.mf-dashboard-content {
+    height: 100%;
+    width: auto;
+    margin-left: 290px;
+    background-color: #E5E5E5;
+}
+
+/*  */
+
+.menu{
+    background-color: white;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 70px;
+}
+
+.menu > ul > li {
+    float: right;
+}
+
+.mf-dashboard-right {
+    float: left;
+}
+
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+
+.isi-dropdown a {
+    color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}

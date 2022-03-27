@@ -14,7 +14,7 @@ export const Layout = () => {
                     <BrowserRouter>
                         <Routers />
                     </BrowserRouter>
-                    <FooterDefault />
+                    {/* <FooterDefault /> */}
                 </>
             ) : (
                 <>
