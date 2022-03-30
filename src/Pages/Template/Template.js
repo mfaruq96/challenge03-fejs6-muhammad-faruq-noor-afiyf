@@ -10,9 +10,9 @@ import fi_profile from "../../Assets/Img/fi_profile.png";
 import Vektor from "../../Assets/Img/Vector.png";
 import garis from "../../Assets/Img/garis.png";
 
-import '../../Assets/Css/template.css';
+import './template.css';
 
-export const Dashboard = () => {
+export const Template = () => {
     return (
         <div>
 

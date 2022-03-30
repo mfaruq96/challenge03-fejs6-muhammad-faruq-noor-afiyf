@@ -17,7 +17,7 @@ import fi_edit from "../../Assets/Img/fi_edit.png";
 
 import '../../Assets/Css/template.css';
 
-export const Cars = () => {
+export const CarsDelete = () => {
     return (
         <div>
 
@@ -64,6 +64,11 @@ export const Cars = () => {
                 {/* RIGHT - CONTENT */}
                 <div className='template-right-content container'>
                     <h5>Cars &ensp; > &ensp; <span className='mf-style-text-dashboard-content'>List Car</span></h5>
+                    <center>
+                        <div class="alert alert-success template-alert-delete" role="alert">
+                            Data Berhasil Dihapus
+                        </div>
+                    </center>
                     <div className='d-flex justify-content-between mt-4'>
                         <div>
                             <h3 className=''>List Car</h3>
