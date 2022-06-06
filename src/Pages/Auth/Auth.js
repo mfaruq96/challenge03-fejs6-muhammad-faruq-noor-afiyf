@@ -50,7 +50,7 @@ export const Auth = () => {
                     <br />
                     <br />
                     <img src={Rectangle62} alt="" />
-                    <h3 className='mt-4'>Welcome, Admin BCR</h3>
+                    <h3 className='mt-4'>Welcome, Admin BCR - STAGING</h3>
                     <Form>
                         <div className='mb-3'>
                             <label for="email" className="form-label">Email</label>

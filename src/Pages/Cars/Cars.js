@@ -46,8 +46,8 @@ export const Cars = () => {
                                 <input type="search" className='form-control template-right-navbar-search' placeholder="Search" />
                                 <button className="btn btn-outline-primary btn-sm" type="submit">Search</button>&emsp;
                                 <img src={fi_profile} alt="" className='' />&ensp;
-                                <span className='mf-tes-right-navbar-span'>Unis Badri</span>&emsp;
-                                <img src={Vektor} alt="" className='mf-tes-right-navbar-vektor' />
+                                <span className='mt-2'>Unis Badri</span>&emsp;
+                                <img src={Vektor} alt="" className='template-img-vektor' />
                             </form>
                         </div>
                     </div>

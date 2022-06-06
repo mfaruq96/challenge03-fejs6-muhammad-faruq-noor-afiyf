@@ -46,8 +46,8 @@ export const CarsAddNewCar = () => {
                                 <input type="search" className='form-control template-right-navbar-search' placeholder="Search" />
                                 <button className="btn btn-outline-primary btn-sm" type="submit">Search</button>&emsp;
                                 <img src={fi_profile} alt="" className='' />&ensp;
-                                <span className='mf-tes-right-navbar-span'>Unis Badri</span>&emsp;
-                                <img src={Vektor} alt="" className='mf-tes-right-navbar-vektor' />
+                                <span className='mt-2'>Unis Badri</span>&emsp;
+                                <img src={Vektor} alt="" className='template-img-vektor' />
                             </form>
                         </div>
                     </div>
@@ -75,19 +75,19 @@ export const CarsAddNewCar = () => {
                                 <div className='mb-3 row'>
                                     <label className='col-lg-2 col-form-label'>Nama<sup className='text-danger'>*</sup></label>
                                     <div className='col-lg-10'>
-                                        <input type='text' className='form-control' id='nama' value='Placeholder' required></input>
+                                        <input type='text' className='form-control' id='nama' placeholder='Placeholder' required></input>
                                     </div>
                                 </div>
                                 <div className='mb-3 row'>
                                     <label className='col-lg-2 col-form-label'>Harga<sup className='text-danger'>*</sup></label>
                                     <div className='col-lg-10'>
-                                        <input type='text' className='form-control' id='harga' value='Placeholder' required></input>
+                                        <input type='text' className='form-control' id='harga' placeholder='Placeholder' required></input>
                                     </div>
                                 </div>
                                 <div className='mb-3 row'>
                                     <label className='col-lg-2 col-form-label'>Foto<sup className='text-danger'>*</sup></label>
                                     <div className='col-lg-10'>
-                                        <input type='text' className='form-control' id='foto' value='Placeholder' required></input>
+                                        <input type='file' className='form-control' id='foto' placeholder='Placeholder' required></input>
                                     </div>
                                 </div>
                                 <div className='mb-3 row'>
